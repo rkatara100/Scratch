@@ -22,10 +22,6 @@ const UserSchema = new mongoose.Schema({
             type: Array, // Assuming the cart contains a list of item IDs or names
             default: [],
       },
-      isAdmin: {
-            type: Boolean,
-            default: false,
-      },
       orders: {
             type: Array, // Assuming orders are arrays of item IDs or names
             default: [],

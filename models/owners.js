@@ -35,6 +35,6 @@ const ownerSchema = new mongoose.Schema({
       picture: String
 });
 
-const User = mongoose.model('User', ownerSchema);
+const owner = mongoose.model('owner', ownerSchema);
 
-module.exports = User;
+module.exports = owner;

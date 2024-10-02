@@ -16,7 +16,7 @@ const ProductSchema = new mongoose.Schema({
             default: 0, // Default discount is 0%
       },
       image: {
-            type: String
+            type: Buffer
       },
       bgcolor: {
             type: String, // Hex color code or CSS color name
